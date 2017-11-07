@@ -1,12 +1,12 @@
 1. .table (-responsive?)
 2. .embed-responsive
-3. .nav
-4. .nav-tabs
+3. .form-group(?)
+4. .form-control-feedback 
 5. .panel
 6. .panel-body 
 7. .glyphicon 
 8. .divider 
 9. .dropdown 
 10. .jumbotron
-11. .form-group(?)
-12. .form-control-feedback 
+11. .nav
+12. .nav-tabs
