@@ -5,8 +5,8 @@
 5. .panel
 6. .panel-body 
 7. .glyphicon 
-8. .divider 
-9. .dropdown 
+8. .alert 
+9. .button
 10. .jumbotron
 11. .nav
 12. .nav-tabs

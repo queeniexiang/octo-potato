@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Bootstrap Crash Course</title>
   </head>
   <body>
-    <div class="jumbotron text-center">
-      <h1>Wow! It's Bootstrap!</h1>
-      <h6>By: Tiffany and Queenie</h6>
-      <br>
-      <p>Welcome to our beautiful tutorial! This is one of the classes: Jumbotron!</p>
+    <div class="panel panel-default">
+      <ul class="nav nav-tabs">
+	<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+	<li class="nav-item"><a class="nav-link" href="#">Page 1</a></li>
+	<li class="nav-item"><a class="nav-link" href="#">Page 2</a></li>
+      </ul>
+      
+      <div class="alert alert-success" role="alert"><b>Success:</b> Yay!</div>
+      <div class="alert alert-info" role="alert"><b>Info:</b> Lemme tell ya some stuff</div>
+      <div class="alert alert-warning" role="alert"<b>Warning:</b> Watch out!</div>
+      <div class="alert alert-danger" role="alert"><b>Danger:</b> Yikes! You definitely messed up</div>
+
+      <div class="jumbotron text-center">
+	<h1>Wow! It's Bootstrap!</h1>
+	<h6>By: Tiffany and Queenie</h6>
+	<br>
+	<p>Welcome to our beautiful tutorial! This is one of the classes: Jumbotron!</p>
+	<p>Here are some buttons with glyphs!</p>
+	<button type="button" class="btn btn-default">
+	  <span class = "glyphicon glyphicon-pencil"></span>
+	</button>
+	<button type="button" class="btn btn-default">
+	  <span class = "glyphicon glyphicon-cloud"></span>
+	</button>
+	<button type="button" class="btn btn-default">
+	  <span class = "glyphicon glyphicon-music">
+	</button>
+      </div>
     </div>
   </body>
 </html>
