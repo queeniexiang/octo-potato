@@ -12,29 +12,89 @@
 	<li class="nav-item"><a class="nav-link" href="#">Page 1</a></li>
 	<li class="nav-item"><a class="nav-link" href="#">Page 2</a></li>
       </ul>
-      
-      <div class="alert alert-success" role="alert"><b>Success:</b> Yay!</div>
-      <div class="alert alert-info" role="alert"><b>Info:</b> Lemme tell ya some stuff</div>
-      <div class="alert alert-warning" role="alert"<b>Warning:</b> Watch out!</div>
-      <div class="alert alert-danger" role="alert"><b>Danger:</b> Yikes! You definitely messed up</div>
+    </div>
+    
+    <div class="alert alert-success" role="alert"><b>Success:</b> Yay!</div>
+    <div class="alert alert-info" role="alert"><b>Info:</b> Lemme tell ya some stuff</div>
+    <div class="alert alert-warning" role="alert"><b>Warning:</b> Watch out!</div>
+    <div class="alert alert-danger" role="alert"><b>Danger:</b> Yikes! You definitely messed up</div>
+    
+    <div class="jumbotron text-center">
+      <h1>Wow! It's Bootstrap!</h1>
+      <h6>By: Tiffany and Queenie</h6>
+      <br>
+      <p>Welcome to our beautiful tutorial! This is one of the classes: Jumbotron!</p>
+      <p>Here are some buttons with glyphs!</p>
+      <button type="button" class="btn btn-default">
+	<span class = "glyphicon glyphicon-pencil"></span>
+      </button>
+      <button type="button" class="btn btn-default">
+	<span class = "glyphicon glyphicon-cloud"></span>
+      </button>
+      <button type="button" class="btn btn-default">
+	<span class = "glyphicon glyphicon-music"></span>
+      </button>
+    </div>
 
-      <div class="jumbotron text-center">
-	<h1>Wow! It's Bootstrap!</h1>
-	<h6>By: Tiffany and Queenie</h6>
-	<br>
-	<p>Welcome to our beautiful tutorial! This is one of the classes: Jumbotron!</p>
-	<p>Here are some buttons with glyphs!</p>
-	<button type="button" class="btn btn-default">
-	  <span class = "glyphicon glyphicon-pencil"></span>
-	</button>
-	<button type="button" class="btn btn-default">
-	  <span class = "glyphicon glyphicon-cloud"></span>
-	</button>
-	<button type="button" class="btn btn-default">
-	  <span class = "glyphicon glyphicon-music">
-	</button>
+    <div>
+      <table class="table table-striped table-bordered">
+	<tr>
+	  <th> Hey! </th>
+	</tr>
+	<tr>
+	  <td> This </td>
+	  <td> Is </td>
+	</tr>
+	<tr>
+	  <td> A </td>
+	  <td> Striped and Bordered </td>
+	  <td> Table </td>
+	</tr>
+      </table>
+    </div>
+
+    <br>
+    <center><b>This is an embedded video in a container of a fixed width!</b>
+      <br>
+      BTW you have to remove the [watch=?v=] section from the link and replace it with /embed/ </center>
+    
+    <div class="container">
+      <div class="row">
+	<div class="col-xs-12">
+	  <div class="embed-responsive embed-responsive-16by9">
+	    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lAIGb1lfpBw" allowfullscreen></iframe>
+	  </div>
+	</div>
       </div>
     </div>
+
+    <br><br>
+
+    <form class="form-vertical">
+      <div class="form-group">
+	Email:
+	<input type="email" class="form-control" id="email" placeholder="This is a form!"> </input>     
+      </div>
+      
+      <div class = "form-group">
+	Password:
+	<input type="password" class="form-control" id="pass" placeholder="Enter password!"> </input>
+      </div>
+    </form>
+
+    <div class="panel-group">
+      <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+            <a data-toggle="collapse" href="#info">Collapsible panel</a>
+	  </h4>
+	</div>
+	<div id="info" class="panel-collapse collapse">
+	  <div class="panel-body">Panel Body</div>
+	  <div class="panel-footer">Panel Footer</div>
+	</div>
+      </div>
+    </div>
+   
   </body>
 </html>
-
